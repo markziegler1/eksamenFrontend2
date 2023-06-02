@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Races add-edit-delete</title>
+  <link rel="stylesheet" href="../CSS/racestyle.css">
+  <link rel="stylesheet" href="../CSS/navbar.css">
+  <link rel="stylesheet" href="../CSS/style.css">
+  <link rel="stylesheet" href="../CSS/indexStyle.css">
+</head>
+<body>
+<nav class="navbar">
+  <div class="navbar-brand">Boats</div>
+  <ul>
+    <li><a href="index.html">Index</a></li>
+    <li><a href="races.html">Races overview</a></li>
+    <li><a href="racesAddEditDelete.html">Races add-edit-delete</a></li>
+    <li><a href="opg4e.html">Opg4e</a></li>
+  </ul>
+</nav>
+
+
+<h1>Races</h1>
+
+<ul id="race-list">
+  <!-- Races will be dynamically added here -->
+</ul>
+
+<button id="add-race-button">Add Race</button>
+
+<!-- Race Modal -->
+<div id="race-modal" class="modal">
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <h2 id="modal-title">Add Race</h2>
+    <form id="race-form">
+      <input type="hidden" id="race-id">
+      <label for="name">Name:</label>
+      <input type="text" id="name" required>
+      <!-- Add additional fields for race data as needed -->
+      <button type="submit">Save</button>
+    </form>
+  </div>
+</div>
+<script src="../JS/racesOverview.js"></script>
+<script src="../JS/racesAddDelete.js"></script>
+<script src="../JS/overviewAndAddDeleteEdit.js"></script>
+
+
+</body>
+</html>

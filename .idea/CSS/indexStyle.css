@@ -1,0 +1,81 @@
+
+/* Main content styles */
+body {
+    margin: 0;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom, #f2f2f2, #e6e6e6);
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+#boat-list {
+    list-style: none;
+    padding: 0;
+}
+
+#add-boat-button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-content {
+    background-color: #fff;
+    width: 300px;
+    margin: 100px auto;
+    padding: 20px;
+    border-radius: 5px;
+    position: relative;
+}
+
+.close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+}
+
+#modal-title {
+    margin-top: 0;
+}
+
+#boat-form {
+    display: flex;
+    flex-direction: column;
+}
+
+#boat-form label {
+    margin-bottom: 5px;
+}
+
+#boat-form input,
+#boat-form select {
+    margin-bottom: 10px;
+    padding: 5px;
+    border-radius: 3px;
+}
+
+#boat-form button[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    font-size: 14px;
+    cursor: pointer;
+}

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Boats</title>
+  <link rel="stylesheet" href="../CSS/style.css">
+  <link rel="stylesheet" href="../CSS/indexStyle.css">
+  <link rel="stylesheet" href="../CSS/navbar.css">
+</head>
+<body>
+<nav class="navbar">
+  <div class="navbar-brand">Boats</div>
+  <ul>
+    <li><a href="index.html">Index</a></li>
+    <li><a href="races.html">Races overview</a></li>
+    <li><a href="racesAddEditDelete.html">Races add-edit-delete</a></li>
+    <li><a href="opg4e.html">Opg4e</a></li>
+  </ul>
+</nav>
+
+
+<h1>Boats</h1>
+
+<ul id="boat-list">
+  <!-- Boats will be dynamically added here -->
+</ul>
+
+<button id="add-boat-button">Add Boat</button>
+
+<!-- Boat Modal -->
+<div id="boat-modal" class="modal">
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <h2 id="modal-title">Add Boat</h2>
+    <form id="boat-form">
+      <input type="hidden" id="boat-id">
+      <label for="name">Name:</label>
+      <input type="text" id="name" required>
+      <label for="type">Type:</label>
+      <select id="type" required>
+        <option value="1">Longer than 40 feet</option>
+        <option value="2">25 or less feet</option>
+        <option value="3">25-40 feet</option>
+      </select>
+      <button type="submit">Save</button>
+    </form>
+  </div>
+</div>
+
+<script src="../JS/main.js"></script>
+
+
+</body>
+</html>

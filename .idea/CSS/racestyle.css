@@ -1,0 +1,39 @@
+{
+font-family: Arial, sans-serif;
+background-color: #f5f5f5;
+margin: 0;
+padding: 20px;
+}
+
+h1 {
+    color: #333;
+    text-align: center;
+}
+
+#race-list {
+    list-style: none;
+    padding: 0;
+}
+
+#race-list li {
+    background-color: #fff;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.winner {
+    border: 2px solid green;
+    background-color: lightgreen;
+}
+
+.second-place {
+    border: 2px solid yellow;
+    background-color: lightyellow;
+}
+
+.third-place {
+    border: 2px solid orange;
+    background-color: lightcoral;
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <title>Opg4e</title>
+  <meta charset="utf-8" />
+  <link rel="stylesheet" href="../CSS/opg4e.css">
+  <link rel="stylesheet" href="../CSS/navbar.css">
+
+
+</head>
+
+<body>
+<nav class="navbar">
+  <div class="navbar-brand">Boats</div>
+  <ul>
+    <li><a href="index.html">Index</a></li>
+    <li><a href="races.html">Races overview</a></li>
+    <li><a href="racesAddEditDelete.html">Races add-edit-delete</a></li>
+    <li><a href="opg4e.html">Opg4e</a></li>
+  </ul>
+</nav>
+<div class="container">
+  <h1>Opg4e</h1>
+  <h2>Udvikl et skærmbillede der kan vise en oversigt over en udvalgt sejlbåds deltagelse i sæsonens
+    kapsejladser. F.eks. sorteret efter point.</h2>
+
+  <select id="race-dropdown">
+    <option value="">--Please choose a race--</option>
+  </select>
+
+  <!-- Add a div to display the selected race details -->
+  <div id="selected-race">ID: - Points: </div>
+
+  <div id="selected-race"></div>
+</div>
+
+<div id="raceDetails"></div>
+<script src="../JS/opg4e.js"></script>
+</body>
+</html>
